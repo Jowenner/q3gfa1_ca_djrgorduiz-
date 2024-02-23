@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+        var name = "Karen";
+        var height = 62;
+        var weight = 50;
+        
+        if (confirm("Do you agree to share your personal information?")) {
+
+        var feet = Math.floor(height / 12);
+        var inches = height % 12;
+
+        var convweight = weight * 2.2046;
+
+        console.log("Name: " + name + "\n" + "Height: " + feet + "'" + inches + "''" + "\n"  + "Weight: " + convweight + "lbs");
+        }
+        else {
+           console.log("User does not wish to share his/her information.");
+        }
+
+    
+    </script>
+</body>
+</html>
